@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentoria - Acelere com Suporte</title>
+    <link rel="stylesheet" href="home.css">
+    <style>
+        /* Ajustes para tornar as imagens de fundo e controlar o tamanho */
+        .hero {
+            background: url('https://images.pexels.com/photos/1516440/pexels-photo-1516440.jpeg') center/cover no-repeat;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 60px 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .about-cards .card {
+            background-size: cover;
+            background-position: center;
+        }
+
+        .about-cards .card:nth-child(1) {
+            background-image: url('https://images.pexels.com/photos/9159042/pexels-photo-9159042.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+        }
+
+        .about-cards .card:nth-child(2) {
+            background-image: url('https://images.pexels.com/photos/4226256/pexels-photo-4226256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+        }
+
+        .about-cards .card:nth-child(3) {
+            background-image: url('https://images.pexels.com/photos/7516363/pexels-photo-7516363.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
+        }
+
+        .card img, .hero-image img {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <div class="logo">
+                <img src="logo.png" alt="Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#">Início</a></li>
+                    <li><a href="#">Sobre nós</a></li>
+                    <li><a href="#">Mentorias</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+            <div class="header-buttons">
+                <a href="#" class="login">Log In</a>
+                <a href="#" class="cadastro">Cadastre-se</a>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Acelere com <span class="highlight">mentoria</span></h1>
+            <p>Obtenha a orientação necessária para ter sucesso. Desde aplicações para universidades até conselhos de carreira, nossos mentores estão aqui para ajudar.</p>
+            <div class="hero-buttons">
+                <a href="#" class="btn cadastro">Cadastre-se</a>
+                <a href="#" class="btn saiba-mais">Saiba mais</a>
+            </div>
+        </div>
+    </section>
+    <section class="about">
+        <div class="container">
+            <h2>Como podemos <span class="highlight">ajudar?</span></h2>
+            <p>No nosso site, estamos comprometidos em fornecer o suporte e os recursos necessários para facilitar a sua jornada educacional.</p>
+            <div class="about-cards">
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Encontre o mentor perfeito para você</h3>
+                        <p>Seja você um estudante em busca de orientação acadêmica ou um profissional em transição de carreira, temos o mentor ideal para suas necessidades.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Participe de sessões ao vivo com especialistas</h3>
+                        <p>Junte-se a nós e amplie seus conhecimentos enquanto interage com especialistas que estão prontos para compartilhar suas experiências e ensinamentos.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-content">
+                        <h3>Explore artigos e vídeos gratuitos</h3>
+                        <p>Não perca a chance de aprender diretamente com profissionais experientes!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footer-content">
+            <div class="container">
+                <div class="footer-links">
+                    <a href="#">Sobre nós</a>
+                    <a href="#">Mentorias</a>
+                    <a href="#">Blog</a>
+                    <a href="#">Contato</a>
+                </div>
+                <p>&copy; 2024 Mentoria. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
