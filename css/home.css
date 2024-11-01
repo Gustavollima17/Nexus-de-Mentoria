@@ -14,7 +14,7 @@ body {
 
 header {
     background-color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
     border-bottom: 1px solid #ddd;
 }
 
@@ -30,10 +30,12 @@ header {
 .navbar ul {
     list-style: none;
     display: flex;
+     
 }
 
 .navbar ul li {
-    margin-right: 20px;
+    margin-right: 80px;
+    
 }
 
 .navbar ul li a {
@@ -216,15 +218,16 @@ header {
 footer {
     background-color: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 5px 0;
     text-align: center;
+    margin-right: 80px;
 }
 
 .footer-content .footer-links {
     display: flex;
     justify-content: center;
     gap: 30px;
-    margin-bottom: 20px;
+    margin-bottom: 2px;
 }
 
 .footer-content .footer-links a {
